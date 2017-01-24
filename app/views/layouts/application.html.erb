@@ -7,8 +7,19 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
+  <div class="container">
+    <% flash.each do |key, value| %>
+      <div class="alert alert-<%= key %>">
+        <%= value %>
+      </div>
+    <% end %>
+  </div>
 
-  <body>
+  <%= yield :top_content %>
+
+  <div class="container">
+      <h1><%= yield :header %></h1>
     <%= yield %>
-  </body>
+  </div>
+
 </html>
