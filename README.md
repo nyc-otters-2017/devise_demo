@@ -14,7 +14,7 @@ resources worth noting
 * http://stackoverflow.com/questions/12468808/error-when-launching-rails-server-getting-uninitialized-constant-devisemode
 *
 
-(devise_demo/imgs/Screen Shot 2017-01-23 at 9.19.28 PM.png)
+(/imgs/Screen Shot 2017-01-23 at 9.19.28 PM.png)
 (devise_demo/imgs/Screen Shot 2017-01-23 at 9.20.06 PM.png)
 (devise_demo/imgs/Screen Shot 2017-01-23 at 9.20.45 PM.png)
 (devise_demo/imgs/Screen Shot 2017-01-23 at 9.21.10 PM.png)
