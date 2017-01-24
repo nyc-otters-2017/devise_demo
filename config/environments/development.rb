@@ -26,6 +26,18 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.default_url_options = { host: 'intense-sands-60955.herokuapp.com'}
+  config.action_mailer.smtp_settings = {
+    address:              'smtp.something.com',
+    port:                 587,
+    domain:               'heroku.com',
+    user_name:            ENV['PLACE'],
+    password:             ENV['PLACE'],
+    authentication:       'plain',
+    enable_starttls_auto: true  }
+
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
 

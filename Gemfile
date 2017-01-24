@@ -22,6 +22,8 @@ gem 'coffee-rails', '~> 4.2'
 # gem 'therubyracer', platforms: :ruby
 gem 'devise', '4.2.0'
 gem 'bootstrap-sass'
+gem 'delayed_job_active_record'
+# gem 'mail' #https://github.com/mikel/mail
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 gem 'jquery-turbolinks'
