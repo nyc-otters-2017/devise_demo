@@ -23,6 +23,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'devise', '4.2.0'
 gem 'bootstrap-sass'
 gem 'delayed_job_active_record'
+gem 'devise_zxcvbn'
 # gem 'mail' #https://github.com/mikel/mail
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
